@@ -1,0 +1,22 @@
+{
+  "name": "lexbegin/var-logger",
+  "type": "library",
+  "description": "Var Logger Component provides a static method to dump string messages into a log file.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexandru Marinescu",
+      "email": "alexandru.marinescu@lexbegin.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0"
+  },
+  "autoload": {
+    "files": [ "Resources/functions/logger.php" ],
+    "psr-4": {
+      "LexBegin\\VarLogger\\": ""
+    }
+  },
+  "minimum-stability": "dev"
+}
